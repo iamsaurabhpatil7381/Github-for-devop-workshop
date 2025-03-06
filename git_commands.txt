@@ -1,0 +1,8 @@
+  498  ls -lrt
+  499  git status
+  500  git remote add origin https://github.com/iamsaurabhpatil7381/Github-for-devop-workshop.git
+  501  git remote -v
+  502  git status
+  503  git push origin master
+  504  git history
+  505  history
