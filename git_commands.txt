@@ -1,8 +1,25 @@
-  498  ls -lrt
-  499  git status
-  500  git remote add origin https://github.com/iamsaurabhpatil7381/Github-for-devop-workshop.git
-  501  git remote -v
-  502  git status
-  503  git push origin master
-  504  git history
-  505  history
+git status
+ clear
+git add .
+git status
+clear
+git status
+git commit -m "added testing files"
+clear
+git status
+rm testing.py
+ls
+clear
+git status
+git restore testing.py
+clear
+git status
+
+git remote add origin https://github.com/LondheShubham153/github-for-devops-workshop.git
+git remote -v
+git status
+ 
+git remote set-url origin https://github.com/LondheShubham153/github-for-devops-workshop.git
+clear
+git remote -v
+git push origin master
